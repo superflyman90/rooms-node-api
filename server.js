@@ -3,7 +3,7 @@ import './config/dbConfig.js';
 import routes from './routes/routes.js'
 import dotenv from 'dotenv';
 dotenv.config();
-import bodyParser from 'body-parser';
+// import bodyParser from 'body-parser';
 
 const PORT = process.env.PORT || 3000;
 
