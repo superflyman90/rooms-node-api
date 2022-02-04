@@ -11,10 +11,10 @@ router.get('/test', catchErrors(getTest));
 
 router.post('/test', catchErrors(postTest));
 
-router.post('/room', catchErrors(addRoom));
-router.get('/room', catchErrors(getRooms));
-router.get('/room/:id', catchErrors(getRoom));
-router.patch('/room/:id', catchErrors(updateRoom));
-router.delete('/room/:id', catchErrors(deleteRoom));
+router.post('/rooms', catchErrors(addRoom));
+router.get('/rooms', catchErrors(getRooms));
+router.get('/rooms/:id', catchErrors(getRoom));
+router.patch('/rooms/:id', catchErrors(updateRoom));
+router.delete('/rooms/:id', catchErrors(deleteRoom));
 
 export default router;
